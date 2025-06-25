@@ -31,17 +31,7 @@ export const CalendarSidebar = ({ selectedDate, setSelectedDate, events }: Calen
 
   return (
     <aside className="w-80 h-full flex flex-col bg-white border-r shadow-sm">
-      <div className="px-6 py-4 border-b">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-black text-white flex-center font-medium">
-            AL
-          </div>
-          <div>
-            <h2 className="text-base font-semibold">Antonio Larentio</h2>
-            <p className="text-xs text-zinc-500">Product Designer</p>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="px-6 py-4 border-b">
         <div className="flex justify-between items-center mb-2">
